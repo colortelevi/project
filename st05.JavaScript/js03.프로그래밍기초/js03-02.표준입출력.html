@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <title>Title</title>
     
+<script>
+
+var value1, value2, sum = 0, average = 0;
+
+value1 = prompt ('첫번째 과목 점수를 입력하세요', '0')
+value2 = prompt ('두번째 과목 점수를 입력하세요', '0')
+value3 = prompt ('세번째 과목 점수를 입력하세요', '0')
+value4 = prompt ('네번째 과목 점수를 입력하세요', '0')
+value5 = prompt ('다섯번째 과목 점수를 입력하세요', '0')
+
+value1 = Number(value1);
+value2 = Number(value2);
+value3 = Number(value3);
+value4 = Number(value4);
+value5 = Number(value5);
+sum = value1 + value2 + value3 + value4 + value5;
+average = sum / 5;
+
+document.write('-----------------<br>');
+if (average >=95) {
+       document.write('참 잘했어요' + '<br>');
+}
+
+else {
+       document.write('분발하세요' + '<br>');
+}
+
+document.write ('------------------<br>')
+
+</script>
+
+
 </head>
 <body>
 
 </body>
-</html>
+</html>
